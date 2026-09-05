@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./at3.css']
 })
 export class At3Component {
-  imagemProduto = 'https://placehold.co/200';
+  imagemProduto = 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuAH48AvkV2xVW83PCWh5DHZJY7fvz3IDKFjjVLZ4dd1_pSwkbBLbvLkzIX07h';
   descricaoImagem = 'Imagem do produto';
 }
