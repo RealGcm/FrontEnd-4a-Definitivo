@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { At3Component } from './at3';
+import { Ex8 } from './ex8';
 
-describe('At3Component', () => {
-  let component: At3Component;
-  let fixture: ComponentFixture<At3Component>;
+describe('Ex8', () => {
+  let component: Ex8;
+  let fixture: ComponentFixture<Ex8>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [At3Component],
+      declarations: [Ex8],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(At3Component);
+    fixture = TestBed.createComponent(Ex8);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

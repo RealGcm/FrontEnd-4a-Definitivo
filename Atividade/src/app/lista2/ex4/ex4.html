@@ -1,0 +1,11 @@
+<p>Produto =  {{nomeProduto}}</p>
+<p>Quantidade em estoque = {{estoque}}</p>
+
+@if (estoque > 0){
+    <p>Produto disponível.</p>
+} @else {
+    <p> Produto sem estoque.</p>
+}
+
+<button (click)="remover()" [disabled]="estoque === 0"> Remover</button>
+<button (click)="adicionar()"> Adicionar</button>

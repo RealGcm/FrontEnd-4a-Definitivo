@@ -1,0 +1,7 @@
+@if (usuarioLogado) {
+    <p>Usuário autenticado.</p>
+} @else {
+    <p>Acesso não autorizado.</p>
+}
+
+<button (click)="alternar()"> {{ usuarioLogado ? 'Sair' : 'Entrar'}} </button>
