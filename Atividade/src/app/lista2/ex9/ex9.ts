@@ -15,10 +15,10 @@ interface Produto {
 })
 export class Ex9 {
   produtos: Produto[] = [
-    { id: 1, nome: 'Teclado', preco: 150, qtd: 3 },
-    { id: 2, nome: 'Mouse', preco: 80, qtd: 5 },
-    { id: 3, nome: 'Monitor', preco: 900, qtd: 2 },
-    { id: 4, nome: 'Headset', preco: 200, qtd: 0 },
-    { id: 5, nome: 'Webcam', preco: 250, qtd: 8 },
+    { id: 1, nome: 'Teclado', preco: 150, qtd: 0 },
+    { id: 2, nome: 'Mouse', preco: 80, qtd: 0 },
+    { id: 3, nome: 'Monitor', preco: 900, qtd: 10 },
+    { id: 4, nome: 'Headset', preco: 200, qtd: 1 },
+    { id: 5, nome: 'Webcam', preco: 250, qtd: 10 },
   ];
 }

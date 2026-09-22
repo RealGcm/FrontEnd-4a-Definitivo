@@ -17,12 +17,12 @@ interface Tarefa{
 export class Ex13 {
 
   tarefas: Tarefa[] = [
-    {id: 1, titulo: 'Lavar Banheiro', responsavel: 'Felipe', prioridade: 'media', concluida: false},
+    {id: 1, titulo: 'Fazer o almoço', responsavel: 'Felipe', prioridade: 'media', concluida: false},
     {id: 2, titulo: 'Fazer o Jantar', responsavel: 'Gabriel', prioridade: 'alta', concluida: true},
-    {id: 3, titulo: 'Levar o Bob no PetShop', responsavel: 'Maria', prioridade: 'baixa', concluida: false},
-    {id: 4, titulo: 'Levar o Carro na oficina', responsavel: 'Caio', prioridade: 'alta', concluida: true},
-    {id: 5, titulo: 'Consertar a cama', responsavel: 'João', prioridade: 'alta', concluida: false },
-    {id: 6, titulo: 'Documentar artigo', responsavel: 'Marcos', prioridade: 'baixa', concluida: false },
+    {id: 3, titulo: 'Lavar o quintal', responsavel: 'Maria', prioridade: 'baixa', concluida: false},
+    {id: 4, titulo: 'Lavar o carro', responsavel: 'Caio', prioridade: 'alta', concluida: true},
+    {id: 5, titulo: 'Abastecer o carro', responsavel: 'João', prioridade: 'alta', concluida: false },
+    {id: 6, titulo: 'Aspirar o sofá', responsavel: 'Marcos', prioridade: 'baixa', concluida: false },
   ];
 
   totalTarefas = this.tarefas.length;

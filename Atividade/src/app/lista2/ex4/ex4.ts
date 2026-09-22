@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './ex4.css',
 })
 export class Ex4 {
-  nomeProduto = 'Teclado';
-  estoque = 5;
+  nomeProduto = 'Mouse';
+  estoque = 10;
 
   adicionar(): void {
     this.estoque++;
