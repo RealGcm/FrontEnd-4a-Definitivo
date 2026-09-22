@@ -32,7 +32,7 @@
           <p>Nota: {{ projeto.nota }}</p>
         }
 
-        <select [ngModel]="projeto.status" (ngModelChange)="alterarStatus(projeto, $event)">
+        <select [ngModel]="projeto.status" (ngModelChange)="alterarStatus(projeto, $any($event))">
           <option value="planejamento">Planejamento</option>
           <option value="desenvolvimento">Desenvolvimento</option>
           <option value="testes">Testes</option>

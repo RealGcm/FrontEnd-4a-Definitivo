@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { Lista2RoutingModule } from './lista2-routing-module';
 import { Ex1 } from './ex1/ex1';
@@ -20,6 +21,6 @@ import { Ex15 } from './ex15/ex15';
 
 @NgModule({
   declarations: [Ex1, Ex2, Ex3, Ex4, Ex5, Ex6, Ex7, Ex8, Ex9, Ex10, Ex11, Ex12, Ex13, Ex14, Ex15],
-  imports: [CommonModule, Lista2RoutingModule],
+  imports: [CommonModule, FormsModule, Lista2RoutingModule],
 })
 export class Lista2Module {}
